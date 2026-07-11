@@ -31,7 +31,7 @@ fun AuthScreen(viewModel: AuthViewModel = hiltViewModel()) {
 
                 else -> {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text("Acceso Seguro", style = MaterialTheme.typography.headlineLarge)
+                        Text("Ejemplo Firebase y credential manager", style = MaterialTheme.typography.headlineLarge)
                         Spacer(modifier = Modifier.height(24.dp))
                         Button(onClick = { viewModel.processIntent(AuthUiEvent.SignInWithGoogle(context)) }) {
                             Text("Iniciar sesión con Google")
