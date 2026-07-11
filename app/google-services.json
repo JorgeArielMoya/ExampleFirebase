@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070944836033",
+    "project_id": "examplefirebase-64903",
+    "storage_bucket": "examplefirebase-64903.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070944836033:android:fca310221a4d56e148b740",
+        "android_client_info": {
+          "package_name": "edu.ucne.examplefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLfQD70KVubzsVaazRftXRGqbWaXiqodk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
