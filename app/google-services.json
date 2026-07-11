@@ -12,7 +12,20 @@
           "package_name": "edu.ucne.examplefirebase"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1070944836033-hb3g5uq16s1i92qchs1fd2033g35t0t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucne.examplefirebase",
+            "certificate_hash": "aa7037db85bb27d397bac071468d8276b3866750"
+          }
+        },
+        {
+          "client_id": "1070944836033-msi7gocqrgvn61hanltjj1be34tm6jio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCLfQD70KVubzsVaazRftXRGqbWaXiqodk"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070944836033-msi7gocqrgvn61hanltjj1be34tm6jio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
