@@ -21,7 +21,7 @@ fun AuthScreen(viewModel: AuthViewModel = hiltViewModel()) {
 
                 state.user != null -> {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text("¡Hola, ${state.user?.displayName}!", style = MaterialTheme.typography.headlineMedium)
+                        Text("Bienvenido ${state.user?.displayName}!", style = MaterialTheme.typography.headlineMedium)
                         Spacer(modifier = Modifier.height(24.dp))
                         Button(onClick = { viewModel.processIntent(AuthUiEvent.SignOut) }) {
                             Text("Cerrar Sesión")
