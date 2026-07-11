@@ -1,6 +1,7 @@
 package edu.ucne.examplefirebase
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-// Agregar HiltAndroid App
+@HiltAndroidApp
 class ExampleFirebaseApp : Application()
